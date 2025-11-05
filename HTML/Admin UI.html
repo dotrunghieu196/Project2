@@ -4,41 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartCart Admin</title>
-    <link rel="stylesheet" href="AdminUI.css">
-    <script defer src="AdminUI.js"></script>
+    <link rel="stylesheet" href="/CSS/AdminUI.css">
+    <script defer src="/JavaScript/script.js"></script>
 </head>
 <body>
     <div class="container">
         <!-- Sidebar -->
         <aside class="sidebar">
             <div class="logo">
-                <img src="Logo Light.png" alt="SmartCart Logo">
+                <img src="/Images/Logo Light.png" alt="SmartCart Logo">
             </div>
 
             <nav class="menu">
                 <a href="#" class="menu-item active">
-                    <img class="icon-default" src="Trang chủ.png" alt="Trang chủ">
-                    <img class="icon-hover" src="Trang chủ 1.png" alt="Trang chủ Hover">
+                    <img class="icon-default" src="/Images/Trang chủ.png" alt="Trang chủ">
+                    <img class="icon-hover" src="/Images/Trang chủ 1.png" alt="Trang chủ Hover">
                     Trang chủ
                 </a>
                 <a href="#" class="menu-item">
-                    <img class="icon-default" src="Quản lý sản phẩm.png" alt="Quản lý sản phẩm">
-                    <img class="icon-hover" src="Quản lý sản phẩm 1.png" alt="Quản lý sản phẩm Hover">
+                    <img class="icon-default" src="/Images/Quản lý sản phẩm.png" alt="Quản lý sản phẩm">
+                    <img class="icon-hover" src="/Images/Quản lý sản phẩm 1.png" alt="Quản lý sản phẩm Hover">
                     Quản lý sản phẩm
                 </a>
                 <a href="#" class="menu-item">
-                    <img class="icon-default" src="Quản lý đơn hàng.png" alt="Quản lý đơn hàng">
-                    <img class="icon-hover" src="Quản lý đơn hàng 1.png" alt="Quản lý đơn hàng Hover">
+                    <img class="icon-default" src="/Images/Quản lý đơn hàng.png" alt="Quản lý đơn hàng">
+                    <img class="icon-hover" src="/Images/Quản lý đơn hàng 1.png" alt="Quản lý đơn hàng Hover">
                     Quản lý đơn hàng
                 </a>
                 <a href="#" class="menu-item">
-                    <img class="icon-default" src="Quản lý khách hàng.png" alt="Quản lý khách hàng">
-                    <img class="icon-hover" src="Quản lý khách hàng 1.png" alt="Quản lý khách hàng Hover">
+                    <img class="icon-default" src="/Images/Quản lý khách hàng.png" alt="Quản lý khách hàng">
+                    <img class="icon-hover" src="/Images/Quản lý khách hàng 1.png" alt="Quản lý khách hàng Hover">
                     Quản lý khách hàng
                 </a>
                 <a href="#" class="menu-item">
-                    <img class="icon-default" src="Quản lý nhân viên.png" alt="Quản lý nhân viên">
-                    <img class="icon-hover" src="Quản lý nhân viên 1.png" alt="Quản lý nhân viên Hover">
+                    <img class="icon-default" src="/Images/Quản lý nhân viên.png" alt="Quản lý nhân viên">
+                    <img class="icon-hover" src="/Images/Quản lý nhân viên 1.png" alt="Quản lý nhân viên Hover">
                     Quản lý nhân viên
                 </a>
             </nav>
@@ -46,11 +46,11 @@
 
             <div class="user-info">
                 <div class="profile">
-                    <img src="avatar (2).png" alt="Avatar">
+                    <img src="/Images/avatar (2).png" alt="Avatar">
                     <span>Đỗ Trung Hiếu</span>
                 </div>
                 <a href="#" class="logout">
-                    <img class="icon-default" src="Đăng xuất.png" alt="Đăng xuất">
+                    <img class="icon-default" src="/Images/Đăng xuất.png" alt="Đăng xuất">
                     Đăng xuất
                 </a>
             </div>
@@ -59,12 +59,21 @@
         <!-- Main Content -->
         <main class="main">
             <header class="topbar">
-                <h2>Chào buổi sáng, Hiếu</h2>
-                <div class="search-area">
-                    <input type="text" placeholder="Nhập nội dung tìm kiếm">
-                    <button class="icon-btn">🔔</button>
-                    <button class="icon-btn">✉️</button>
+                <div class="header-left">
+                    <img src="/Images/avatar (2).png" alt="Avatar">
+                    <h2>Chào buổi sáng, Hiếu</h2>
                 </div>
+
+                <div class="header-right">
+                    <div class="search-area">
+                        <img src="/Images/search-icon.png" alt="Search">
+                        <input type="text" placeholder="Nhập nội dung tìm kiếm">
+                    </div>
+                    <div class="buttons">
+                        <button class="icon-btn"><img src="/Images/noti-button.png" alt="Noti-button"></button>
+                        <button class="icon-btn"><img src="/Images/message-button.png" alt="Message-button"></button>
+                    </div>
+                </div>                
             </header>
 
             <section class="content">
