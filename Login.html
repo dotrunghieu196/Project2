@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập SmartCart</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Bên trái -->
+    <section class="left-section">
+      <img class="logo" src="logo.png" alt="SmartCart Logo">
+      <img class="illustration" src="illustration.png" alt="Shopping Illustration" >
+    </section>
+
+    <!-- Bên phải -->
+    <section class="right-section">
+      <form class="login-form">
+        <h1>Đăng nhập tài khoản</h1>
+        <p class="error">Tài khoản hoặc mật khẩu không hợp lệ. Hãy thử lại</p>
+
+        <div class="input-group">
+          <img class="icon" src="username-icon.png" alt="User Icon" >
+          <input type="text" placeholder="Username" required>
+        </div>
+
+        <div class="input-group">
+          <img class="icon" src="password-icon.png" alt="Password Icon" >
+          <input type="password" placeholder="Password" required>
+          <img class="icon" src="visiblity-icon.png" alt="Visibility Icon" >
+        </div>
+
+        <div class="options">
+          <label><input type="radio" name="save"> Lưu mật khẩu</label>
+          <a href="#" class="forgot">Quên mật khẩu</a>
+        </div>
+
+        <button class="login-btn" type="submit" class="login-btn">Đăng nhập</button>
+        
+        <p class="register">Chưa có tài khoản? <a href="#">Đăng ký ngay</a></p>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
