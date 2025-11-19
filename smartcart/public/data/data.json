@@ -1,0 +1,135 @@
+{
+  "admin": [
+    {"username": "admin1", "password": "123456", "name": "Đỗ Trung Hiếu", "gender": "Male", "dob": "2004-01-01", "email": "admin@gmail.com", "phone": "0987654321", "role": "Administrator", "status": "Active", "avatar": "/images/admin.png"}
+  ],
+  "sales": [
+    { "name": "Jan", "sales": 4200 },
+    { "name": "Feb", "sales": 3800 },
+    { "name": "Mar", "sales": 5100 },
+    { "name": "Apr", "sales": 4600 },
+    { "name": "May", "sales": 5400 },
+    { "name": "Jun", "sales": 7200 },
+    { "name": "Jul", "sales": 6100 },
+    { "name": "Aug", "sales": 2900 },
+    { "name": "Sep", "sales": 6800 },
+    { "name": "Oct", "sales": 6300 },
+    { "name": "Nov", "sales": 7100 },
+    { "name": "Dec", "sales": 7500 }
+  ],
+  "categories": [
+    { "name": "Smartphones", "value": 5200 },
+    { "name": "Laptops", "value": 4300 },
+    { "name": "Furniture", "value": 3100 },
+    { "name": "Beauty & Personal Care", "value": 2700 },
+    { "name": "Gaming Accessories", "value": 2200 }
+  ],
+  "orderStatus": [
+    { "name": "Pending", "value": 60 },
+    { "name": "Processing", "value": 45 },
+    { "name": "Canceled", "value": 30 },
+    { "name": "Delivered", "value": 120 }
+  ],
+  "productPerformance": [
+    {
+      "name": "Smartphone",
+      "Retention": 5200,
+      "Revenue": 3100,
+      "Profit": 2800
+    },
+    { "name": "Laptop", "Retention": 4300, "Revenue": 2700, "Profit": 3400 },
+    {
+      "name": "Coffee Table",
+      "Retention": 3100,
+      "Revenue": 6900,
+      "Profit": 4100
+    },
+    { "name": "Mouse", "Retention": 2500, "Revenue": 4200, "Profit": 2700 },
+    {
+      "name": "Running Shoes",
+      "Retention": 2000,
+      "Revenue": 9000,
+      "Profit": 2900
+    }
+  ],
+  "orders": [
+    {
+      "id": "#A7B9D31",
+      "client": "Ethan Carter",
+      "email": "Ethan.Carter@example.com",
+      "total": 174.5,
+      "status": "Delivered",
+      "date": "Jan 30, 2025",
+      "country": "United States"
+    },
+    {
+      "id": "#X4Y2Z85",
+      "client": "Sophia Mitchell",
+      "email": "Sophia.Mitchell@example.co.uk",
+      "total": 632.0,
+      "status": "Pending",
+      "date": "Feb 23, 2025",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "#M6N3P74",
+      "client": "Liam Harrison",
+      "email": "Liam.Harrison@example.de",
+      "total": 202.5,
+      "status": "Delivered",
+      "date": "Dec 25, 2024",
+      "country": "Germany"
+    },
+    {
+      "id": "#K9L8T62",
+      "client": "Ava Bennett",
+      "email": "Ava.Bennett@example.in",
+      "total": 330.0,
+      "status": "Canceled",
+      "date": "Mar 22, 2025",
+      "country": "India"
+    },
+    {
+      "id": "#Q5R7W30",
+      "client": "Noah Reynolds",
+      "email": "Noah.Reynolds@example.au",
+      "total": 595.5,
+      "status": "Delivered",
+      "date": "Mar 5, 2025",
+      "country": "Australia"
+    }
+  ],
+  "orderStats": [
+    { "name": "Total Orders", "value": "15,240", "icon": "ShoppingBag" },
+    { "name": "Completed Orders", "value": "13,500", "icon": "CheckCircle" },
+    { "name": "Pending Orders", "value": "1,120", "icon": "Clock" },
+    { "name": "Canceled Orders", "value": "620", "icon": "Ban" }
+  ],
+  "navbarItems": [
+  { "name": "Trang chủ", "icon": "House", "href": "/user/homepage" },
+  { "name": "Sản phẩm", "icon": "ShoppingCart", "href": "/user/products" },
+  { "name": "Giỏ hàng", "icon": "ShoppingBag", "href": "/user/cart" },
+  { "name": "Thông báo", "icon": "Bell", "href": "/user/notifications" },
+  { "name": "Hồ sơ cá nhân", "icon": "Mail", "href": "/user/profile" }
+  ],
+  "productCategories": [
+    { "name": "Điện thoại", "image": "/images/phone.png" },
+    { "name": "Laptop", "image": "/images/laptop.png" },
+    { "name": "Tablet", "image": "/images/tablet.png" },
+    { "name": "Đồng hồ", "image": "/images/watch.png" },
+    { "name": "Tai nghe", "image": "/images/earphones.png" },
+    { "name": "Phụ kiện", "image": "/images/accessory.png" }
+  ],
+  "products": [
+    { "id": 1, "name": "Sản phẩm 1", "price": "₫10,000,000" },
+    { "id": 2, "name": "Sản phẩm 2", "price": "₫15,000,000" },
+    { "id": 3, "name": "Sản phẩm 3", "price": "₫8,000,000" },
+    { "id": 4, "name": "Sản phẩm 4", "price": "₫12,000,000" },
+    { "id": 5, "name": "Sản phẩm 5", "price": "₫20,000,000" },
+    { "id": 6, "name": "Sản phẩm 6", "price": "₫18,000,000" },
+    { "id": 7, "name": "Sản phẩm 7", "price": "₫9,000,000" },
+    { "id": 8, "name": "Sản phẩm 8", "price": "₫14,000,000" },
+    { "id": 9, "name": "Sản phẩm 9", "price": "₫11,000,000" },
+    { "id": 10, "name": "Sản phẩm 10", "price": "₫16,000,000" }
+  ]
+
+}
