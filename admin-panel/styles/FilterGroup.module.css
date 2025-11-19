@@ -1,0 +1,16 @@
+.filterGroup {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.filter {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #fff;
+  color: #0033CC;
+}
+.active {
+  background: #005CFF;
+  color: white;
+}
